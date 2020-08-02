@@ -1,0 +1,37 @@
+/*========================================
+    Start Customer Detail Address Component
+=========================================*/
+.Col {
+    flex: 1;
+    padding: 0px 16px 0px;
+}
+
+.Col h2{
+    padding: 0px 0px 10px;
+    margin: 0px;
+}
+
+.AddressDetails{
+    display: block;
+    border: 1px solid #ccc;
+    box-shadow: 10px 10px 10px #ccc;
+    padding: 10px;
+}
+
+.Row{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.RowLast{
+    border-bottom: 0px;
+}
+.Bold{
+    font-weight: 700;
+}
+.errorMsg{
+    color: #f00;
+}
+
+/*========================================
+    End Customer Detail Address Component
+=========================================*/
