@@ -8,7 +8,7 @@
 8. If for some reason the microservice api are down it shows graceful message. Thinking it as mocrofrontend with other components will be pluggedin, don't wanted to block whole page if only customer details api are down/not available.
 9. For css -  css loader is used. So, that modularity is maintained as well as if required className can be based on conditions.
 
-Things to do:
+Things to do(enhancements):
 
 1. Change to functional component.
 2. Using HOC(Higher Order Component) as asyn compoinent for better code splitting.
@@ -17,7 +17,6 @@ Things to do:
 5. Code Documentation.
 6. Unit testing with jest.
 7. e2e testing with Cypress.io.(it takes quite a bit time though :) ).
-
-
-
-
+8. Pagination.
+9. Typography, font, specifications according to style guide.
+10. Analytics of each customer dimentions, like grouping of age group, geo radius etc.
